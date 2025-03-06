@@ -1,4 +1,7 @@
+<p align="center">
+
 # Transformer-based MTS Anomaly Localization
+</p>
 
 <p align="center">
   <img src="MTSgif.gif" alt="Alt text"/>
