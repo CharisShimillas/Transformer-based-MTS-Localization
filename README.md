@@ -11,7 +11,9 @@
 
 ## Paper
 This is the code of the paper: Transformer-based Multivariate Time Series  Anomaly Localization.
+You can get a free copy of the pre-print version from arXiv ([link](https://arxiv.org/abs/2501.08628)) .
 
+Alternatively, you can get the published version from the publisher’s website (link).
 ## Instructions
 Please check the `instructions.txt` file for detailed usage instructions.
 
