@@ -1,6 +1,25 @@
 
 # Transformer-based MTS Anomaly Localization
-
+With the growing complexity of Cyber-Physical
+Systems (CPS) and the integration of Internet of Things (IoT),
+the use of sensors for online monitoring generates large volume of
+multivariate time series (MTS) data. Consequently, the need for
+robust anomaly diagnosis in MTS is paramount to maintaining
+system reliability and safety. While significant advancements have
+been made in anomaly detection, localization remains a largely
+underexplored area, though crucial for intelligent decisionmaking. This paper introduces a novel transformer-based model
+for unsupervised anomaly diagnosis in MTS, with a focus on
+improving localization performance, through an in-depth analysis
+of the self-attention mechanism’s learning behavior under both
+normal and anomalous conditions. We formulate the anomaly
+localization problem as a three-stage process: time-step, window,
+and segment-based. This leads to the development of the SpaceTime Anomaly Score (STAS), a new metric inspired by the
+connection between transformer latent representations and spacetime statistical models. STAS is designed to capture individual anomaly behaviors and inter-series dependencies, delivering
+enhanced localization performance. Additionally, the Statistical
+Feature Anomaly Score (SFAS) complements STAS by analyzing
+statistical features around anomalies, with their combination
+helping to reduce false alarms. Experiments on real world and
+synthetic datasets illustrate the model’s superiority over state-ofthe-art methods in both detection and localization tasks.
 ## Paper
 This is the code for the paper: Transformer-based Multivariate Time Series  Anomaly Localization.
 
