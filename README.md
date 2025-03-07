@@ -26,10 +26,8 @@ This is the code for the paper: Transformer-based Multivariate Time Series  Anom
 You can get a free copy of the pre-print version from arXiv ([link](https://arxiv.org/abs/2501.08628)) .
 
 Alternatively, you can get the published version from the publisher’s website (link).
-## Instructions
-You can train and test the model for each dataset using the command found in the scripts folder.
 
-### Datasets:
+## Datasets:
 For the SMD and ASD datasets, please access them through the following repositories, which are associated with their respective research works:
 
 - **SMD**: The dataset is available in the repository related to the KDD 2019 paper "Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network". [View Repository]([URL-for-SMD](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset)).
@@ -44,6 +42,10 @@ Ensure that in your data folder, you have:
 Rows correspond to time steps, while columns correspond to time-series dimensions. In the test label file, a '1' in the ij cell indicates that the j-th time series is anomalous at time step i.
 
 The files can be in csv or npy format , but make sure to adjust  the ***data_loader*** function.
+
+## Training & Evaluating
+You can train and test the model for each dataset using the command found in the scripts folder.
+
 
 Please check the `instructions.txt` file for detailed usage instructions.
 
