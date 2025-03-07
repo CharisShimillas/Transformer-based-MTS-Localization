@@ -28,7 +28,7 @@ Ensure that in your data folder, you have:
 - **Train Data**: Training dataset.
 - **Test Data**: Testing dataset.
 - **Test Labels**: Labels indicating anomalies ('1' for anomalies, '0' for normal).
-- 
+
 Rows correspond to time steps, while columns correspond to time-series dimensions. In the test label file, a '1' in the ij cell indicates that the j-th time series is anomalous at time step i.
 
 The files can be in csv or npy format , but make sure to adjust  the ***data_loader*** function.
