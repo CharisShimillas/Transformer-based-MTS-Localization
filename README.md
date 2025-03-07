@@ -11,7 +11,7 @@ Alternatively, you can get the published version from the publisher’s website 
 You can train and test the model for each dataset using the command found in the scripts folder.
 
 **To apply the model to your dataset**: Ensure that in your data folder, you have (1) train, (2) test data, and (3) test_labels datasets. The files can be in csv or npy format , but make sure to adjust the data_loader function accordingly to accommodate your file format. Rows correspond to time steps, while columns correspond to time-series dimensions. In the test label file, a '1' indicates that the corresponding time series (column) is anomalous at this time step (row), and normal otherwise. Make sure to adjust the 
-<span style="color:green;">data_loader</span> function.
+***data_loader*** function.
 
 Please check the `instructions.txt` file for detailed usage instructions.
 
