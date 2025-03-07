@@ -30,7 +30,7 @@ Alternatively, you can get the published version from the publisher’s website 
 ## Datasets:
 For the SMD and ASD datasets, please access them through the following repositories, which are associated with their respective research works:
 
-- **SMD**: The dataset is available in the repository related to the KDD 2019 paper "Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network". [View Repository](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset)](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset).
+- **SMD**: The dataset is available in the repository related to the KDD 2019 paper "Robust Anomaly Detection for Multivariate Time Series through Stochastic Recurrent Neural Network". [View Repository](https://github.com/NetManAIOps/OmniAnomaly/tree/master/ServerMachineDataset).
 - **ASD**: The dataset can be found in the [InterFusion project on GitHub](https://github.com/zhhlee/InterFusion/tree/main).
 
 ### To apply the model to your dataset: 
