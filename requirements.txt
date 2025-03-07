@@ -1,8 +1,6 @@
 ## Modify the version based on what cuda you are using
-
-matplotlib==3.5.3
-numba==0.56.4
-numpy==1.21.6
+matplotlib
+numpy
 torch==1.9.0+cu102
 torchaudio==0.9.0
 torchvision==0.10.0+cu102
@@ -17,4 +15,5 @@ pandas==1.3.5
 Pillow==9.5.0
 graphviz==0.20.1
 joblib==1.3.2
+numba==0.56.4
 
