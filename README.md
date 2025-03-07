@@ -2,7 +2,7 @@
 # Transformer-based MTS Anomaly Localization
 
 ## Paper
-This is the code of the paper: Transformer-based Multivariate Time Series  Anomaly Localization.
+This is the code for the paper: Transformer-based Multivariate Time Series  Anomaly Localization.
 
 You can get a free copy of the pre-print version from arXiv ([link](https://arxiv.org/abs/2501.08628)) .
 
