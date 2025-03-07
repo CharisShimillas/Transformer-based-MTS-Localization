@@ -1,5 +1,6 @@
 
 # Transformer-based MTS Anomaly Localization
+![Cover Image](/COVER.png)
 
 ## Paper
 This is the code of the paper: Transformer-based Multivariate Time Series  Anomaly Localization.
