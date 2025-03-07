@@ -11,7 +11,7 @@ Alternatively, you can get the published version from the publisher’s website 
 
 You can train and test the model for each dataset using the command found in the scripts folder.
 
-### Example for the ASD Dataset
+% ### Example for the ASD Dataset
 
 To train and test the model on the ASD dataset, use the following commands:
 
