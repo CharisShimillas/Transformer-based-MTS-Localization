@@ -11,18 +11,6 @@ Alternatively, you can get the published version from the publisher’s website 
 
 You can train and test the model for each dataset using the command found in the scripts folder.
 
-% ### Example for the ASD Dataset
-
-To train and test the model on the ASD dataset, use the following commands:
-
-```bash
-# Train the model
-python main.py --anormly_ratio 1 --num_epochs 1 --batch_size 128 --mode train --dataset ASD_ALL --data_path path_to_data_folder --input_c 19 --output_c 19
-
-# Test the model
-python main.py --anormly_ratio 1 --num_epochs 1 --batch_size 128 --mode test --dataset ASD_ALL --data_path path_to_data_folder --input_c 19 --output_c 19
-```
-
 ### To apply the model to your dataset: 
 Ensure that in your data folder, you have:
 - **Train Data**: Training dataset.
