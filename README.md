@@ -24,8 +24,13 @@ python main.py --anormly_ratio 1 --num_epochs 1 --batch_size 128 --mode test --d
 ```
 
 ### To apply the model to your dataset: 
-Ensure that in your data folder, you have (1) train, (2) test data, and (3) test_labels datasets. The files can be in csv or npy format , but make sure to adjust the data_loader function accordingly to accommodate your file format. Rows correspond to time steps, while columns correspond to time-series dimensions. In the test label file, a '1' indicates that the corresponding time series (column) is anomalous at this time step (row), and normal otherwise. Make sure to adjust the 
-***data_loader*** function.
+Ensure that in your data folder, you have (1) train, (2) test data, and (3) test_labels datasets. 
+- **Train Data**: Training dataset.
+- **Test Data**: Testing dataset.
+- **Test Labels**: Labels indicating anomalies ('1' for anomalies, '0' for normal).
+Rows correspond to time steps, while columns correspond to time-series dimensions. In the test label file, a '1' in the ij cell indicates that the j-th time series is anomalous at time step i.
+
+The files can be in csv or npy format , but make sure to adjust  the ***data_loader*** function.
 
 Please check the `instructions.txt` file for detailed usage instructions.
 
