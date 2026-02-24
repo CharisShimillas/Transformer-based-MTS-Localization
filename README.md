@@ -25,7 +25,7 @@ This is the code for the paper: Transformer-based Multivariate Time Series  Anom
 
 You can get a free copy of the pre-print version from arXiv ([link](https://arxiv.org/abs/2501.08628)) .
 
-Alternatively, you can get the published version from the publisher’s website (link).
+Alternatively, you can get the published version from the publisher’s website ([link](https://ieeexplore.ieee.org/document/11007637/)).
 
 ## Datasets:
 For the SMD and ASD datasets, please access them through the following repositories, which are associated with their respective research works:
